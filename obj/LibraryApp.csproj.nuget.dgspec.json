@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/penghao712/code/c#/LibraryApp/LibraryApp.csproj": {}
+  },
+  "projects": {
+    "/home/penghao712/code/c#/LibraryApp/LibraryApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/penghao712/code/c#/LibraryApp/LibraryApp.csproj",
+        "projectName": "LibraryApp",
+        "projectPath": "/home/penghao712/code/c#/LibraryApp/LibraryApp.csproj",
+        "packagesPath": "/home/penghao712/.nuget/packages/",
+        "outputPath": "/home/penghao712/code/c#/LibraryApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/penghao712/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
