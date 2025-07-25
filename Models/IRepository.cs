@@ -1,6 +1,4 @@
 // 创建文件 Repositories/IRepository.cs
-using System;
-using System.Collections.Generic;
 
 namespace LibraryManagementSystem.Repositories
 {

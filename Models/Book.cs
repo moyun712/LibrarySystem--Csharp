@@ -8,7 +8,7 @@ namespace LibraryManagementSystem.Models
         // Book 特有的属性
         public string ISBN { get; set; }
         public int PublicationYear { get; set; } // 添加为 Book 特有的属性
-        public BookCategory Category { get; set; }
+        public BookCategory Category { get; set; } // 图书分类
 
         // 构造函数
         public Book(int id, string title, string author, string publisher, int availableCopies, 
